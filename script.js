@@ -8,12 +8,11 @@ let highestscore =0;
 let score = document.createElement("h4")
 
 
-document.addEventListener("keypress", (e) => {
-  if (started == false ) {
+
+  if (started == false ) 
     started = true;
     levelup();
-  }
-});
+
 function levelup() {
   userseq = [];
   level++;
