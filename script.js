@@ -9,7 +9,7 @@ let score = document.createElement("h4")
 
 
 document.addEventListener("keypress", (e) => {
-  if (started == false && e.code == "Enter") {
+  if (started == false ) {
     started = true;
     levelup();
   }
